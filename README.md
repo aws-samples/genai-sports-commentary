@@ -1,10 +1,10 @@
-# Use Generative AI With  Amazon SageMaker To Create Live Sports Commentary
+# Use Generative AI With  Amazon Bedrock To Create Live Sports Commentary
 Recent breakthroughs in foundation models have accelerated AI innovations to new heights. A new category of AI called Generative AI, refers to a category of AI that generate new outputs based on the data they have been trained on. This class of models has shown promising results in generating creative contents. For example, new audio, code, images, text, simulations, and videos.
 
 In this project, we are going to look into how Generative AI can be used to create highly personalized contents for sport fans. In our example, we'll use a foundation model to generate play by play  commentary based on American Football game data synthetically created (in reality, the data could be directly sourced from the stadiums, or cloud). We'll instruct the model to generate variety of commentary using different prompts. For instance, create prompts to the model to generate commentary in particular commentary writing style, or a particular language that the fans would prefer.  
 
 # Code Examples
-All code samples that demonstrate the capabilities described above are provided in this repository. The foundation model used throughout the project is [AI21 Jurassic-2 Jumbo Instruct](https://aws.amazon.com/marketplace/pp/prodview-f4y5ksmu5kccy) which is available through [Amazon SageMaker](https://aws.amazon.com/pm/sagemaker) jumpstart model hub. This project also comes with a demo UI that demontrates the model ability to generate commentaries base on the style and language. It could be extended to provide many other capablitiies. 
+All code samples that demonstrate the capabilities described above are provided in this repository. The foundation model used throughout the project is [AI21 Jurassic-2 Ultra](https://aws.amazon.com/bedrock/jurassic/) which is available through [Amazon Bedrock](https://aws.amazon.com/bedrock). This project also comes with a demo UI that demontrates the model ability to generate commentaries base on the style and language. It could be extended to provide many other capablitiies. 
 
 # Dataset
 The dataset used for this project is synthetically generated and randomized to provide a format and terminologies based on American Football. 
