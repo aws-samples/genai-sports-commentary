@@ -39,3 +39,10 @@ Open a browser tab with URL: http://localhost:7860
 Here's a screenshot of the UI in action:
  
 <img src="img/genai-sports-commentary-demo.gif" width="1000" height="500" />
+
+
+# Security
+See [CONTRIBUTING](CONTRIBUTING.md) for more information.
+
+# License
+This library is licensed under the MIT-0 License. See the LICENSE file.
