@@ -9,10 +9,6 @@ All code samples that demonstrate the capabilities described above are provided 
 # Dataset
 The dataset used for this project is synthetically generated and randomized to provide a format and terminologies based on American Football. 
 
-# Prerequisites
-To demonstrate the GenAI capability, we've provided a jupyter notebook with prompts and data processing steps. This notebook has been tested in SageMaker Notebook instance and SageMaker Studio environments. However, it could easily be adopted outside of these Sageaker IDE environments.
-To run the notebook and the demo application successfully, you need access to call SageMaker APIs. In particular, IAM permissions to access and to deploy models to SageMaker endpoint. Follow this [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/security_iam_service-with-iam.html) for setting up appropriate IAM Role and Policies in SageMaker.
-
 # Quick Start For Demo Environment
 A demo UI is created that allows users to control how sports commentary are generated using the [Jurassic-2 Ultra](https://aws.amazon.com/bedrock/jurassic/) in [Amazon Bedrock](https://aws.amazon.com/bedrock/). All integrations between the application components and FM model is done using Amazon Bedrock API calls. 
 
