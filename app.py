@@ -332,7 +332,7 @@ with gr.Blocks(css=css) as demo:
 
             language_radio = gr.Radio(["English", "Spanish", "German"], value="English", label="Language",
                                       info="Translate to target language")
-            style_radio = gr.Radio(["NFL", "tweeter", "poetic"], value="NFL", label="Style",
+            style_radio = gr.Radio([("Standard", "NFL"), ("X (Tweeter)", "tweeter"), ("Poetic", "poetic")], value="NFL", label="Style",
                                    info="The style of the commentary")
             with gr.Row():
                 button_simulator_start = gr.Button(value="Start Game Simulator", variant='primary')
