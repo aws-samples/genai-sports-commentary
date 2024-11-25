@@ -19,8 +19,8 @@ This demo relies on an lambda function to orchestrate the interaction between me
 In addition to AWS lambda, the telemetry data is simulated and streamed into the application via Kinesis Data Stream. Specifically, 1 data stream (e.g. sports-data-live-stream-src) for data ingestion, and 1 data stream (e.g. sports-data-live-commentaries) for publishing the generated commentary. The lambda function above is designed to take an environment variable to identify the target Kinesis stream (e.g. sports-data-live-commentaries) so it could be consumed by the application. The source Kinesis stream should be configured as a trigger in the lambda function.
 
 ```
-  git clone https://github.com/wei-m-teh/sagemaker-genai-sports-commentary
-  cd sagemaker-genai-sports-commentary
+  git clone https://github.com/aws-samples/genai-sports-commentary
+  cd genai-sports-commentary
   pip install -r requirements.txt
   export AWS_ACCESS_KEY_ID=<your AWS creds>
   export AWS_SECRET_ACCESS_KEY=<your AWS creds>
